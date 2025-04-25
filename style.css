@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.733);
+  position: fixed;
+  width: 100%;
+}
+
+header img {
+  width: 150px;
+}
+
+.primeiro_quadro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(229, 255, 0, 0.5), rgba(0, 204, 255, 0.5)), url('imagens/correndo1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.texto {
+  width: 70%;
+}
+
+.segundo_quadro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+  width: 100vw;
+  height: 320vh;
+  background-color: #ffffffe0;
+  overflow-x: hidden
+}
+
+
+.pacotes{
+  max-width: 80%;
+}
+
+.pacotes img{
+  margin: 20px 0;
+  width: 200px;
+  border: 8px ridge rgba(0, 0, 0, 0.521);
+}
+
+.pacotes h4{
+  margin-bottom: 50px;
+}
+
+
+.terceiro_quadro {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100vw;
+  height: 200vh;
+  margin-top: 30px;
+  background: rgba(229, 255, 0, 4.9);
+  background: linear-gradient(180deg, rgba(0, 204, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(0, 204, 255, 0.5));
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden
+}
+
+.correndo {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.correndo img {
+  width: 50px;
+  padding: 5px;
+}
+
+.quarto_quadro{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100vw;
+  height: 20vh;
+  margin-top: 30px;
+  background: rgba(255, 255, 255, 0.507);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden
+} 
